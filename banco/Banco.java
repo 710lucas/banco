@@ -100,7 +100,9 @@ public class Banco {
                         break;
 
                     case 6:
+                        System.out.println("Seu saldo é: "+conta.getSaldo());
                         sair = true;
+                        break;
 
                     default:
                         break;
